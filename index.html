@@ -1,0 +1,13 @@
+{% extends 'base.html'%} {% block 'title' %} Homepage {% endblock %} {% block 'css' %}
+<style type="text/css">
+    body {
+        background-color: red;
+    }
+</style>
+{% endblock %} {% block 'js'%}
+<script>
+    document.onreadystatechange = () => {
+        alert("Hello")
+    }
+</script>
+{% endblock%}
